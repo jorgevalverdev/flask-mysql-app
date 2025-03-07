@@ -1,0 +1,186 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Jumbotron Styles */
+.jumbotron {
+    background-color: #fff;
+    color: black;
+    padding: 40px;
+    margin: 20px 0;
+    border-radius: 4px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.jumbotron h1 {
+    margin: 0;
+    font-size: 36px;
+    display: inline-block;
+}
+
+.jumbotron p.lead {
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+/* Form Styles */
+.form-signin {
+    max-width: 330px;
+    margin: 0 auto;
+    padding: 20px 20px;
+}
+
+.form-signin .form-control {
+    position: relative;
+    box-sizing: border-box;
+    height: auto;
+    padding: 10px 10px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    
+}
+
+.form-signin .form-control:focus {
+    z-index: 2;
+    border-color: #3279b5;
+    outline: none;
+}
+
+.form-signin input[type="name"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="email"] {
+    margin-bottom: -1px;
+    border-radius: 0;
+}
+
+.form-signin input[type="password"] {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+/* Hide Labels */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+}
+
+/* Button Styles */
+.btn-lg {
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 4px;
+}
+
+.btn-primary {
+    background-color: #3279b5;
+    border-color: #3279b5;
+    color: white;
+}
+
+.btn-primary:hover {
+    background-color: #286090;
+    border-color: #204d74;
+}
+
+.btn-block {
+    display: block;
+    width: 100%;
+}
+
+/* Footer Styles */
+.footer {
+    text-align: center;
+    padding: 20px 0;
+    border-top: 1px solid #ddd;
+    margin-top: 20px;
+    color: #777;
+}
+
+/* Header styling */
+.header {
+    display: flex;
+    align-items: center; /* Vertically center items */
+    justify-content: space-between; /* Space between h3 and nav */
+    padding: 10px 0; /* Add some padding */
+}
+
+.header h3 {
+    margin: 0; /* Remove default margin */
+    color: #555;
+}
+
+.header nav {
+    margin-left: auto; /* Push nav to the right */
+}
+
+/* Nav styling */
+.nav {
+    display: flex;
+    list-style: none; /* Remove bullet points */
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+}
+
+.nav li {
+    margin-left: 10px; /* Add spacing between nav items */
+}
+
+.nav li a {
+    text-decoration: none; /* Remove underline from links */
+    padding: 8px 12px; /* Add padding to links */
+    border-radius: 4px; /* Rounded corners */
+    background-color: #f8f9fa; /* Light background */
+    color: #333; /* Dark text */
+}
+
+.nav li.active a {
+    background-color: #007bff; /* Active link background */
+    color: #fff; /* Active link text color */
+}
+
+.nav-pills {
+    margin: 0;
+}
+
+.nav-pills li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.nav-pills li a {
+    text-decoration: none;
+    color: #555;
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+
+.nav-pills li.active a {
+    background-color: #3279b5;
+    color: white;
+}
